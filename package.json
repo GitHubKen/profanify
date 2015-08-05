@@ -1,7 +1,7 @@
 {
 "author": "Wilkenson Francois",
 "name": "profanify",
-"version": "0.0.1",
+"version": "0.0.5",
 "description": "Censors profane words",
 "main": "profanetext",
 "repository": {
@@ -10,10 +10,17 @@
 },
 "keywords": [
 "censor",
-"words"
+"words",
+"profanity"
 ],
-"dependencies": {},
-"engines": {
-"node": "*"
+"dependencies": {
+	"consolidate": "~0.9.1",
+    "crypto": "~0.0.3",
+    "express": "3.x",
+    "mongodb": "~1.3.11",
+    "swig": "~0.14.0"
+	},
+	"engines": {
+	"node": "*"
 }
 }
